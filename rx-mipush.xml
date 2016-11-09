@@ -1,0 +1,5 @@
+<prescription type="service">
+  <intent-filter>
+    <action name="com.xiaomi.mipush.sdk.WAKEUP" />
+  </intent-filter>
+</prescription>
