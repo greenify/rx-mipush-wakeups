@@ -1,5 +1,9 @@
 <prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
   <intent-filter>
     <action name="com.xiaomi.mipush.sdk.WAKEUP" />
+    <action name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+    <action name="com.xiaomi.mipush.ERROR" />
+    <action name="com.xiaomi.mipush.PING_TIMER" />
+    <action name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
   </intent-filter>
 </prescription>
