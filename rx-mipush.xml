@@ -4,5 +4,6 @@
       <action name="com.xiaomi.mipush.sdk.WAKEUP" />
     </intent-filter>
   </prescription>
+  <prescription type="service" class="com.xiaomi.push.service.XMPushService" sender="any" />
   <prescription type="service" class="com.xiaomi.push.service.XMJobService" sender="other" />
 </prescriptions>
